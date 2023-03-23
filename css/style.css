@@ -1,0 +1,117 @@
+/* flex practice#1 */
+.flex-wraper-box {
+    width: 1171px;
+    margin:0 auto;
+    background-color: lightblue;
+}
+.text-block {
+    width: 771px;
+    margin:0 auto;
+    background-color: yellow;
+    text-align: center;
+}
+.flex-box {
+    width: 371px;
+    height: 374px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child-flex-box {
+    width: 251px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.blue-icon {
+    width: 88px;
+    height: 88px;
+    background-color: #325DFF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* flex practice#2 */
+.box01 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box02 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.box03 {
+    width: 200px;
+    height: 200px;
+    background-color:blueviolet;
+}
+.flex-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* section styles */
+.image-bg {
+    width: 100%;
+}
+.container-block {
+    width: 1400px;
+    margin: 0 auto;
+}
+.image-corner {
+    border-radius: 30px;
+}
+.image2 {
+    width: 100%;
+}
+
+/* footer styles */
+.footer-container {
+    width: 1404px;
+    margin:0 auto;
+    background-color: lightblue;
+    height: 308px;
+}
+.block01 {
+    width: 291px;
+    background-color: lightpink;
+    display: inline-block;
+    vertical-align: top;
+}
+.block02 {
+    width:543px;
+    background-color: lightsalmon;
+    display: inline-block;
+    margin: 0 143px 0 142px;
+    vertical-align: top;
+    text-align: center;
+}
+.block03 {
+    width: 285px;
+    background-color: lightskyblue;
+    display: inline-block;
+    vertical-align: top;
+}
+.copyright-block {
+    width: 699px;
+    margin: 0 auto;
+    text-align: center;
+}
