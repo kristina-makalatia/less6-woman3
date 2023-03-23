@@ -40,6 +40,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-content: space-between;
+    height: 773px;
 }
 
 
